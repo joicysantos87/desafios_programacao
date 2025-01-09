@@ -1,0 +1,9 @@
+def inverter_string(texto):
+    invertida = ""
+    for char in texto:
+        invertida = char + invertida
+    return invertida
+
+# Teste
+string = input("Digite uma string: ")
+print(f"String invertida: {inverter_string(string)}")
